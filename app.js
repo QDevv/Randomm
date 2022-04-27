@@ -7,4 +7,6 @@ let bgrcChanger = ()=>{
 
 }
 
-btn.addEventListener('click', bgrcChanger)
+// btn.addEventListener('click', bgrcChanger)
+
+setInterval(bgrcChanger, 1000)
